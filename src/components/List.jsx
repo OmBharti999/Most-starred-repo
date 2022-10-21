@@ -37,6 +37,7 @@ export default function List({ page }) {
               star={i.stargazers_count}
               issue={i.open_issues_count}
               username={i.owner.login}
+              pushed_at={i.pushed_at}
             />
           </div>
         ))
