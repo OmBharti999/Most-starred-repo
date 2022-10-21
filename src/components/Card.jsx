@@ -11,7 +11,7 @@ export default function Card({
   star,
   issue,
   username,
-  pushed_at
+  pushed_at,
 }) {
   const [show, setShow] = useState(false);
   const showGraph = () => {
@@ -31,7 +31,7 @@ export default function Card({
             <div className="box">{" issue: " + issue}</div>
           </div>
           <div>{" Username: " + username}</div>
-          <div style={{display:"flex"}}>
+          <div style={{ display: "flex" }}>
             Last pushed {pushed_at.slice(0, 19)} by {username}
           </div>
           <button onClick={showGraph}>
