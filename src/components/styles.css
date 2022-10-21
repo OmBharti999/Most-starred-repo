@@ -1,0 +1,10 @@
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.pageno {
+  padding: 0.4px 4px;
+  color: white;
+  font-size: 0.89rem;
+}

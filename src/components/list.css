@@ -1,0 +1,8 @@
+.loader {
+  color: rgb(207, 21, 21);
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 20px;
+  height: 70vh;
+  background: whitesmoke;
+}
