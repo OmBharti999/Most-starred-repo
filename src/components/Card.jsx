@@ -32,7 +32,7 @@ export default function Card({
           </div>
           <div>{" Username: " + username}</div>
           <div style={{ display: "flex" }}>
-            Last pushed {pushed_at.slice(0, 19)} by {username}
+            Last pushed {pushed_at.slice(0, 19) + " "} by {username}
           </div>
           <button onClick={showGraph}>
             <RiArrowDropDownFill />
